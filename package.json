@@ -1,11 +1,13 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
+  "name": "random-profile",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
   "devDependencies": {
